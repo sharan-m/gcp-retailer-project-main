@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `avd-databricks-demo.silver_dataset.customers`
     effective_start_date TIMESTAMP,
     effective_end_date TIMESTAMP,
     is_active BOOL
-);
+); 
 
 
 --Step 2: Update Existing Active Records if There Are Changes
